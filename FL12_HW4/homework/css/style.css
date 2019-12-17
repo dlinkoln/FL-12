@@ -23,6 +23,9 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    position: fixed;
+    width: 100%;
+    background: #fff;
 }
 .header__logo{
     text-transform: uppercase;
