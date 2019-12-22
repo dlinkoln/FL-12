@@ -1,0 +1,387 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;   
+}
+a{
+    text-decoration: none;
+}
+body {
+  font-family: roboto;
+  background: #0b192f;
+}
+.post_1 {
+	background: #9d27b0;
+}
+.post_2 {
+	background: #9bb800;
+}
+.post_3 {
+	background: #ed5120;
+}
+.post_4 {
+	background: #9d27b0;
+}
+.post_5 {
+	background: #2d95bb;
+} 
+
+/* Your styles go here */
+.h2{
+    font-size: 54px;
+    font-weight: 200;
+}
+.header{
+    height: 100px;
+    margin: 0px auto 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+.header .wrapper{
+    background: #024161;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.header__logo{
+    font-weight: 200;
+    font-size: 40px;
+    width: 10%;
+}
+.header__logo span{
+    color:#BB2A66;
+    font-weight: 200;
+}
+.header__nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__nav ul{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav ul li{
+    list-style-type: none;
+    font-size: 22px;
+}
+.header__nav ul li{
+    display: flex;
+    align-items: center;
+    padding:0 3%;
+    height: 100%;
+    
+}
+.header__nav ul li:hover{
+    background: #1f52a4;
+    cursor: pointer;
+}
+
+.banner{
+    max-width: 1400px;
+    height: 100%;
+    margin: 0px auto ;
+    background: url("../img/post0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+}
+.banner .h2{
+    padding-top: 18%;
+    
+}
+.banner .wrapper{
+    display: block;
+}
+.banner .banner__descr{
+    padding-top: 20px;
+    width: 69%;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #99A7A9;
+}
+.posts-box .wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+.posts{
+    width: 75%;
+}
+.post{
+    display: flex;
+}
+.post:nth-child(even) .post__img{
+    order: 2;
+}
+.post:nth-child(even) .post__text{
+    order: 1;
+    text-align: right;
+    padding: 5% 5% 5% 6%;
+}
+.post:nth-child(even) .post__data{
+    left: 0;
+    right: inherit;
+    margin-right: 0;
+    margin-left: 15px;
+    
+}
+.post__img{
+    width: 100%;
+    min-height: 30%;
+    min-width: 49%;
+}
+.post__text{
+    width: 100%;
+    position: relative;
+    padding: 4% 4% 4% 4%;
+}
+.post__text .h2{
+
+    line-height: 1em;
+}
+.post__text p{
+    margin-top: 35px;
+    color: #fff;
+    line-height: 1.7em;
+    font-size: 15px;
+}
+.post__data{
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    right: 0;
+    margin-right:2%;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+.post__data span{
+    text-transform: uppercase;
+    font-size: 62px;
+    display: block;
+    font-weight: 200;
+}
+.post_5 .post__img{
+    width: 0%;
+    min-width: 0;
+}
+.post_5{
+    max-height: 15%;
+    margin-bottom: 20px;
+}
+.post_5 .post__text{
+    padding-right: 10%;
+}
+.post_1 img:hover{
+    cursor: pointer;
+    background:#9d27b0;
+    opacity: 0.7;
+
+}
+.post_1 .post__text:hover{
+    cursor: pointer;
+    background:#9d27b0;
+    opacity: 0.7;
+}
+
+.post_2 img:hover{
+    cursor: pointer;
+    background:#9bb800;
+    opacity: 0.7;
+
+}
+.post_2 .post__text:hover{
+    cursor: pointer;
+    background:#9bb800;
+    opacity: 0.7;
+}
+.post_3 img:hover{
+    cursor: pointer;
+    background:#ed5120;
+    opacity: 0.7;
+
+}
+.post_3 .post__text:hover{
+    cursor: pointer;
+    background:#ed5120;
+    opacity: 0.7;
+}
+
+.post_5 .post__text:hover{
+    cursor: pointer;
+    background:#2d95bb;
+    opacity: 0.7;
+}
+
+.footer .wrapper{
+    background: #024161;
+    height: 100px;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.footer .wrapper p{
+    margin-top: 10px;
+    opacity: 0.3;
+}
+.footer__author p{
+    margin-top: 10px;
+    opacity: 0.3;
+}
+.news{
+    width: 23%;
+}
+.news img{
+    width: 100%;
+    margin-bottom: 0;
+}
+.news__item{
+    margin-bottom: 20px;
+}
+.news__text{
+    margin-top: -4px;
+    padding: 12%;
+    background: #fff;
+    color:#000;
+}
+.news__text .h2{
+    font-size: 30px;
+    font-weight: 400;
+    color:#000;
+    padding-right: 10px;
+}
+.news__text p {
+    margin-top: 20px;
+    line-height: 1.7em  ;
+    color: #000;
+}
+.hamburger {
+    position: relative;
+    display: none;
+    width: 30px;
+    height: 18px;
+    margin: 20px auto;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 100%;
+    border-top: 3px solid #fff;
+}
+@media screen and (max-width:768px) {
+    .post{
+        display: block;
+    }
+
+    .header{
+        height: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header .header__logo{
+        display: block;
+        margin: 0px auto;
+        padding: 80px 0 ;
+        width: auto;
+        text-align: center;
+
+    }
+    .hamburger{
+        display: block;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+    .header .wrapper{
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+        
+    }
+    .banner {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .posts-box{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .posts{
+        width: 65%;
+    }
+    .post:nth-child(2n) .post__text {
+        text-align: left;
+    }
+    .news{
+        width: 33%;
+    }
+    .post:nth-child(2n) .post__data {
+
+        right: 0;
+        left: initial;
+        margin-right: 15px;
+    
+    }
+    .footer .wrapper{
+        display: block;
+        text-align: center;
+        height: inherit;
+    }
+    .footer .wrapper .footer__right p:first-child{
+        padding-top: 50px;
+        
+    }
+    .footer .wrapper .footer__author{
+        padding-bottom: 50px;
+        
+    }
+    .footer{
+        height: inherit;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .post_5 .post__data{
+        position: relative;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .posts-box .wrapper{
+        display: block;
+    }
+    .posts{
+        width: 100%;
+    }
+    .news{
+        width: 100%;
+    }
+    .post_5{
+        margin-bottom: 0px;
+    }
+}
